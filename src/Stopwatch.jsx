@@ -52,9 +52,12 @@ function StopWatch(){
     }
 
     return(
-        <div>
+        <div className="stopwatch-container">
+            <div className="stopwatch">
             {formatTime()}
-            <div>
+            </div>
+            
+            <div className="buttons">
             <button onClick={start}>start</button>
             <button onClick={stop}>stop</button>
             <button onClick={reset}>reset</button>
