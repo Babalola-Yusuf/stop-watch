@@ -9,8 +9,8 @@ function App() {
   return (
     <div>
       <h1>Stop Watch</h1>
-      <button onClick={handleAddStopwatch}>Add StopWatch</button>
-      
+      <button onClick={handleAddStopwatch}>Add Stop watch</button>
+
       {addStopwatch.map((stopwatch, index) => (
         <StopWatch key={index} />
       ))}
